@@ -25,7 +25,7 @@ def predict_class(image, model):
 
 
 model = load_model()
-st.title('Chest Classifier')
+st.title('pneumonia detection')
 
 file = st.file_uploader("Upload an image of a flower", type=["jpg", "png"])
 
